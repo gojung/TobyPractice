@@ -37,6 +37,6 @@ public class MemberService {
 
     @Transactional
     public void deleteAll(){
-        memberRepository.deleteAll();;
+        memberRepository.deleteAll();
     }
 }
